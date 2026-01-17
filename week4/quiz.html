@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Quiz 1</h1>
+
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="mb-3">
+                        <label for="exampleSelect" class="form-label">คณะ / สาขาที่ต้องการสมัคร</label>
+                        <span class="text-danger">*</span>
+                        <select class="form-control" aria-label="Default select example" id="exampleSelect">
+                            <option selected>เลือกคณะ</option>
+                            <option value="1">คณะวิทย์</option>
+                            <option value="2">คณะวิศวกรรมศาสตร์</option>
+                            <option value="3">คณะบัญชี</option>
+                            </option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3">
+                        <label for="disabledSelect" class="form-label">สัญชาติ</label>
+                        <span class="text-danger">*</span>
+                        <select class="form-control" aria-label="Default select example" id="exampleSelect">
+                            <option selected>เลือกสัญชาติ</option>
+                            <option value="1">ไทย</option>
+                            </option>
+                        </select>
+                    </div>
+                    <div class="col-lg-2">
+                        <label for="disabledSelect" class="form-label">เพศ</label>
+                        <span class="text-danger">*</span>
+                        <select class="form-control" aria-label="Default select example" id="exampleSelect">
+                            <option selected>เลือก</option>
+                            <option value="1">ชาย</option>
+                            <option value="2">หญิง</option>
+                            </option>
+                        </select>
+                    </div>
+                </div>
+
+                <form class="row">
+                    <div class="col-lg-2">
+                        <label for="disabledSelect" class="form-label">คำนำหน้า</label>
+                        <span class="text-danger">*</span>
+                        <select class="form-control" aria-label="Default select example" id="exampleSelect">
+                            <option selected>เลือก</option>
+                            <option value="1">นาย</option>
+                            <option value="2">นางสาว</option>
+                            </option>
+                        </select>
+                    </div>
+                    <div class="col-lg-2">
+                        <label for="validationDefault02" class="form-label">ชื่อ</label>
+                        <span class="text-danger">*</span>
+                        <input type="text" class="form-control" id="validationDefault02" value="Chotika" required>
+                    </div>
+                    <div class="col-lg-2">
+                        <label for="validationDefaultUsername" class="form-label">นามสกุล</label>
+                        <span class="text-danger">*</span>
+                        <input type="text" class="form-control" id="validationDefault02" value="Phonphalerd" required>
+                    </div>
+                    <div class="col-lg-3">
+                        <label for="validationDefaultUsername" class="form-label">บัตรประชาชน</label>
+                        <span class="text-danger">*</span>
+                        <input type="text" class="form-control" id="validationDefault02" required>
+                    </div>
+                    <div class="col-lg-3">
+                        <label for="validationDefaultUsername" class="form-label">เบอร์โทรศัพท์</label>
+                        <span class="text-danger">*</span>
+                        <input type="text" class="form-control" id="validationDefault02" required>
+                    </div>
+                </form>
+
+                <div class="row">
+                    <div class="col-lg-2">
+                        <label for="validationDefaultUsername" class="form-label">ID Line (ถ้ามี)</label>
+                        <span class="text-danger">*</span>
+                        <input type="text" class="form-control" id="validationDefault02" required>
+                    </div>
+                    <div class="col-lg-3">
+                        <label for="validationDefaultUsername" class="form-label">Facebook</label>
+                        <input type="text" class="form-control" id="validationDefault02" required>
+                    </div>
+                    <div class="col-lg-3">
+                        <label for="validationDefaultUsername" class="form-label">Email address</label>
+                        <input type="text" class="form-control" id="validationDefault02" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-2">
+                        <label for="disabledSelect" class="form-label">วุฒิการศึกษา</label>
+                        <span class="text-danger">*</span>
+                        <select class="form-control" aria-label="Default select example" id="exampleSelect">
+                            <option selected>เลือก</option>
+                            <option value="1">มัธยมตอนปลาย</option>
+                            <option value="2">ปวส.</option>
+                            </option>
+                        </select>
+                    </div>
+                    <div class="col-lg-3">
+                        <label for="validationDefaultUsername" class="form-label">ชื่อสถานศึกษาเดิม</label>
+                        <span class="text-danger">*</span>
+                        <input type="text" class="form-control" id="validationDefault02" required>
+                    </div>
+                    <div class="col-lg-2">
+                        <label for="disabledSelect" class="form-label">จังหวัด</label>
+                        <span class="text-danger">*</span>
+                        <select class="form-control" aria-label="Default select example" id="exampleSelect">
+                            <option selected>เลือก</option>
+                            <option value="1">ร้อยเอ็ด</option>
+                            <option value="2">ข่อนแก่น</option>
+                            <option value="1">มหาสารคาม</option>
+                            <option value="2">อื่นๆ</option>
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <label for="validationDefaultUsername" class="form-label">สาขาวิชาที่เรียนจบ</label>
+                            <span class="text-danger">*</span>
+                            <input type="text" class="form-control" id="validationDefault02" required>
+                        </div>
+                        <div class="col-lg-3">
+                            <label for="validationDefaultUsername" class="form-label">ผลการเรียนเฉลี่ย (GPEX)</label>
+                            <span class="text-danger">*</span>
+                            <input type="text" class="form-control" id="validationDefault02" required>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <label for="disabledSelect" class="form-label">มีความต้องการกู้ยืมเพื่อการศึกษา</label>
+                                <span class="text-danger">*</span>
+                                <select class="form-control" aria-label="Default select example" id="exampleSelect">
+                                    <option selected>เลือก</option>
+                                    <option value="1">ต้องการ</option>
+                                    <option value="2">ไม่ต้องการ</option>
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="mb-3">
+                                        <label for="exampleSelect" class="form-label"> เอกสารแนบ (ไฟล์สะสมงาน) </label>
+                                        <select class="form-select" aria-label="Default select example"
+                                            id="exampleSelect">
+                                            <Input class="form-control" type="file" />
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-4 mb-5">
+                                    <div class="col-lg-12 text-center">
+                                        <button type="submit" class="btn btn-danger px-4"> ยืนยัน</button>
+                                        <button type="reset" class="btn btn-primary px-4"> ยกเลิก</button>
+                                        </select>
+                                    </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
