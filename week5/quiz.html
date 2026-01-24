@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+            />
+            <button class="btn btn-outline-success">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-3">
+      <div class="alert alert-warning alert-dismissible fade show">
+        <strong>ประกาศ!!!</strong>
+        ร้านจะหยุดทำชั่วคราวในวันที่ 28-31 ธันวาคม 2568
+        <button class="btn-close" data-bs-dismiss="alert"></button>
+      </div>
+    </div>
+
+    <nav aria-label="breadcrumb" class="container">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">หน้าแรก</a></li>
+        <li class="breadcrumb-item"><a href="#">หมวดหมู่สินค้า</a></li>
+        <li class="breadcrumb-item"><a href="#">สินค้าแนะนำ</a></li>
+      </ol>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+              ></button>
+              <button
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+              ></button>
+              <button
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+              ></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://down-th.img.susercontent.com/file/8665d72adb1ae3fd3ac777a048014e9f@resize_w900_nl.webp"
+                  class="d-block w-100"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://p.lnwfile.com/_/p/_raw/l5/wo/yl.jpg"
+                  class="d-block w-100"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://p.lnwfile.com/_/p/_raw/s2/08/45.jpg"
+                  class="d-block w-100"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <h4>
+            ตลับลูกปืนเบอร์ 6901 6902 6903 6904 6905 ฝาเหล็ก NSK
+            <span class="badge bg-secondary">ใหม่</span>
+          </h4>
+
+          <div class="mb-2">
+            <span class="text-warning">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </span>
+            <span class="ms-2">4.5</span>
+            <i class="fa-regular fa-heart ms-3"></i>
+          </div>
+
+          <h4 class="text-danger">฿99-฿289</h4>
+
+          <div class="input-group mb-3" style="width: 150px">
+            <button class="btn btn-outline-secondary">-</button>
+            <input type="text" class="form-control text-center" value="1" />
+            <button class="btn btn-outline-secondary">+</button>
+          </div>
+
+          <button class="btn btn-dark w-100">เพิ่มสินค้าใส่ตะกร้า</button>
+        </div>
+      </div>  
+      <div class="row mt-4">
+ 
+  <div class="col-md-8">
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne"
+          >
+            รายละเอียดสินค้า
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseOne"
+          class="accordion-collapse collapse show"
+        >
+          <div class="accordion-body">
+            <strong>BALL BEARLINGS</strong>
+            ตลับลูกปืนเม็ดกลมร่องลึกแถวเดี่ยว ball bearings ยี่ห้อ NSK
+            ลูกปืนคุณภาพดี แข็งแรง ทนทาน มีฝาปิดเหล็กทั้ง 2 ด้าน
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo"
+          >
+            เบอร์สินค้า & ขนาดในนอกหนา
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseTwo"
+          class="accordion-collapse collapse"
+        >
+          <div class="accordion-body">
+          </strong> 6901 ขนาด 12-24-6<br>
+          </strong> 6902 ขนาด 15-28-7<br>
+          </strong> 6903 ขนาด 17-30-7<br>
+          </strong> 6904 ขนาด 20-37-9<br>
+          </strong> 6905 ขนาด 25-42-9<br>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree"
+          >
+            วิธีใช้ & ข้อแนะนำ
+          </button>
+        </h2>
+        <div
+          id="panelsStayOpen-collapseThree"
+          class="accordion-collapse collapse"
+        >
+          <div class="accordion-body">
+            <strong> ลูกปืนเม็ดกลมควรเลือกใช้ให้เหมาะสมกับขนาดเพลา โดยขนาดเส้นผ่านศูนย์กลางด้านในต้องพอดีกับเพลา
+               ลีกเลี่ยงการเคาะหรือกระแทกแรงๆ ลูกปืนซีรีส์ 6900 เหมาะสำหรับงานที่ต้องการความเร็วรอบสูงและรับน้ำหนักไม่มาก ควรหลีกเลี่ยงการใช้งานที่มีแรงกระแทกสูง
+               และควรเลือกใช้ลูกปืนแบบมีซีลยางเมื่อใช้งานในสภาพแวดล้อมที่มีฝุ่นหรือความชื้น
+               หากพบเสียงดัง การสั่น หรือการหมุนฝืด ควรเปลี่ยนลูกปืนใหม่เพื่อป้องกันความเสียหายต่ออุปกรณ์.</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-4">
+    <div class="card">
+      <img
+        src="https://down-th.img.susercontent.com/file/fe5c4c01f3d6101bb4196466ab15fd88@resize_w900_nl.webp"
+        class="card-img-top"
+        alt="product"
+      <div class="card-body">
+        <p class="card-text">ROLLER CHAIN</p>
+        <strong>฿5,590.00</strong>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
